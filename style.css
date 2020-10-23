@@ -171,7 +171,7 @@ a {
     top: 0;
 }
 #hero {
-    background-image: url(./img/pexels-cottonbro-5076517\ \(1\).jpg);
+    background-image: url(./img/home-page-img.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -318,6 +318,9 @@ img {
 #projects:hover .project-img img {
     transform: scale(1.1);
 }
+#projects .project-info a p {
+    color: rgb(238, 229, 229);
+} 
 
 #about .about {
     flex-direction: column-reverse;
