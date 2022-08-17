@@ -170,6 +170,7 @@ a {
 #header .hamburger.active .bar::after{
     top: 0;
 }
+/* HERO */
 #hero {
     background-image: url(./img/home-page-img.jpg);
     background-size: cover;
@@ -240,6 +241,7 @@ img {
     width: 100%;
     object-fit: cover;
 }
+/* PROJECTS */
 #projects .projects {
     flex-direction: column;
     max-width: 1200px;
@@ -301,6 +303,11 @@ img {
     overflow: hidden;
     position: relative;
 }
+
+#projects .project-img .project-image {
+    height: 200px;
+    width: 100vw;
+}
 #projects .project-img::after {
     content: '';
     position: absolute;
@@ -321,7 +328,7 @@ img {
 #projects .project-info a p {
     color: rgb(238, 229, 229);
 } 
-
+/* ABOUT */
 #about .about {
     flex-direction: column-reverse;
     text-align: center;
@@ -367,7 +374,7 @@ img {
     border: 3px solid rgb(197, 63, 90);
     z-index: -1;
 }
-
+/* CONTACT */
 #contact .contact{
     flex-direction: column;
     max-width: 1200px;
@@ -535,8 +542,16 @@ img {
     }
     #contact .contact-item{
         width: 30%;
+        font-size: 16px;
         flex-direction: row;
     }
+    #contact .contact-info h1 {
+        font-size: 20px;
+    }
+    #contact .contact-info h2 {
+        font-size: 11px;
+    }
+
     #contact .contact-item .icon img{
         object-fit: contain;
     }
